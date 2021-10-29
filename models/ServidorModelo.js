@@ -29,7 +29,7 @@ class ServidorModelo{
 
     enrutarPeticiones(){
 
-        this.app.use('/',rutas)
+        this.app.use('/',PORT)
 
     }
 
