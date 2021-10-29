@@ -6,7 +6,7 @@ const{conectarBD}=require('../database/conexion.js')
 
 //importar lsa rutas
 
-const rutas=require('../routes/rutas.js')
+const PORT=require('../routes/rutas.js')
 
 class ServidorModelo{
 
